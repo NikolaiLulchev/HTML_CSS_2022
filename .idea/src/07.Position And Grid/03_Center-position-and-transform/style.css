@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(238,238,238);
+}
+
+.card{
+    width: 50%;
+    margin: auto;
+    background-color: rgb(255,255,255);
+    font-family: Georgia, serif;
+    font-size: 1em;
+
+}
+
+.card div:first-of-type{
+    height: 250px;
+    position: relative;
+}
+.card div:last-of-type{
+    padding: 18px;
+}
+
+.card a{
+    background-color: rgb(0,153,0);
+    color: white;
+    text-decoration: none;
+    padding: 4px 8px;
+}
+.card h3{
+
+    font-size: 1.2em;
+}
+
+img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+
+}
