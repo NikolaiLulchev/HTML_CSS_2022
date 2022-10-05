@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+}
+
+main {
+    padding: 1rem;
+}
+
+footer {
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+    padding-left: 1rem;
+    position: sticky;
+    bottom: 10px;
+}
+
+header {
+    padding: 1rem;
+    border-bottom: 2px solid black;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h2 {
+    margin-top: 2rem;
+}
+
+p {
+    margin: 1rem 0px;
+}
