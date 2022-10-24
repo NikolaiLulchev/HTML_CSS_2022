@@ -15,23 +15,27 @@
         width: 53%;
     }
 
-    .site-footer .wrapper{
+    .classes li {
+        width: calc((100% - 1rem) / 2);
+    }
+
+    .site-footer .wrapper {
         flex-wrap: wrap;
     }
 
-    .site-footer .about{
+    .site-footer .about {
         flex-basis: 105%;
     }
 
-    .site-footer .sitemap{
+    .site-footer .sitemap {
         flex-basis: 45%;
     }
 
-    .getInTouch{
+    .getInTouch {
         display: unset;
     }
 
-    .map{
+    .map {
         width: 96%;
         margin: 0 auto;
         margin-bottom: 2rem;
