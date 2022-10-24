@@ -1,1 +1,39 @@
-//TODO
+@media screen and (max-width: 800px) {
+    .menu,
+    .nav-options,
+    .trainings,
+    .instructors-pic {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-options {
+        padding-left: 0;
+    }
+
+    .trainings div {
+        width: 53%;
+    }
+
+    .site-footer .wrapper{
+        flex-wrap: wrap;
+    }
+
+    .site-footer .about{
+        flex-basis: 105%;
+    }
+
+    .site-footer .sitemap{
+        flex-basis: 45%;
+    }
+
+    .getInTouch{
+        display: unset;
+    }
+
+    .map{
+        width: 96%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+}
