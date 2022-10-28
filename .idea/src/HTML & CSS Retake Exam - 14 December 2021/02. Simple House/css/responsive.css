@@ -1,1 +1,36 @@
-/* TODO: Add the responsive styles here */
+@media screen and (max-width: 600px) {
+    *{
+        box-sizing: border-box;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .tm-header-inner {
+        padding: 40px 16px;
+    }
+    .tm-nav{
+        padding-right: 0;
+    }
+
+    .tm-section-title {
+        font-size: 2.4rem;
+        margin-left: 0;
+    }
+
+    .tm-gallery-page {
+        margin: 0;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .tm-gallery{
+        margin: 0 auto;
+    }
+
+    .tm-cta-section {
+        width: 100%;
+    }
+
+}
