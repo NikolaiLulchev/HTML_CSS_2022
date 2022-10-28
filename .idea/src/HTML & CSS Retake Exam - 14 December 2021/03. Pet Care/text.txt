@@ -1,26 +1,4 @@
 
-Home About Services Contact
-We Care
-Your Pets
-Lorem ipsum dolor sit amet, consectetur
-adipiscing elit, sed do eiusmod. Contact Us
-
-Services for every dog
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
-
-
-Pet Boarding
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-
-
-Healthy Meals
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-
-
-Pet Spa
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-
-
 We care your pet
 As you care
 Lorem ipsum dolor sit , consectetur adipiscing elit, sed do
