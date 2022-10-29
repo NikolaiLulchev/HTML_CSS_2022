@@ -92,18 +92,18 @@ ul {
     align-items: center;
 }
 
-.services h2{
+.services h2 {
     font-size: 3.5rem;
     font-weight: bolder;
 }
 
 .cards {
-    margin: 7rem;
-    height: 400px;
-    width: 60%;
+    margin: 7rem auto;
+    height: 500px;
+    width: 70%;
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    justify-content: space-evenly;
 }
 
 .card {
@@ -132,4 +132,140 @@ div.card-image > img:nth-child(2) {
     left: -33px;
     transform: unset;
     z-index: 1000;
+}
+
+.services{
+    margin-bottom: 8rem;
+}
+
+.services p {
+    display: flex;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.1rem;
+    color: #909092;
+    max-width: 660px;
+    padding: 2rem 3rem;
+}
+
+.services h3 {
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.care .title {
+    font-size: 3.5rem;
+    line-height: 5rem;
+    color: black;
+}
+
+.care .light {
+    font-weight: normal;
+}
+
+.care {
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.care p {
+    line-height: 2rem;
+    font-size: 1.1rem;
+    color: #909092;
+}
+
+.care .btn {
+    background-color: #FF3600;
+    color: white;
+}
+
+
+
+.care > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.why {
+    display: flex;
+    align-items: center;
+    height: 610px;
+    background-image: url("./images/cats-bg.png");
+}
+
+.info {
+    width: 820px;
+    margin: 0 auto;
+    display: flex;
+    gap: 4rem;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.info p {
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 3.5rem;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+
+}
+
+.bottom p {
+    font-size: 1.3rem;
+}
+
+.bottom .phone {
+    font-weight: bold;
+}
+
+footer {
+    margin: 4rem auto;
+    margin-top: 8rem;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+body > footer > div,
+footer ul {
+    display: flex;
+    flex-direction: column;
+}
+
+footer h3{
+    font-size: 1.7rem;
+    font-weight:  600;
+}
+
+footer ul{
+    color: #909092;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    gap: 1rem;
+    margin: 3rem 0;
+
+}
+body > footer > div:nth-child(4) > div{
+    width: 146px;
+}
+footer img{
+    width: 100%;
+}
+
+body > footer > div:nth-child(4) > ul > li{
+    width: 300px;
 }
